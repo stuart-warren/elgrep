@@ -14,7 +14,7 @@ Usage of elgrep:
   -prefix="logstash-": index name prefix (before date)
   args: query string query
 ```
-Queries server at env ELASTICSEARCH_URL or http://localhost:9200 by default
+Queries server at env ELASTICSEARCH_HOST or http://localhost:9200 by default
 
 Currently only queries the index with todays date.
 
