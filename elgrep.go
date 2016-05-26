@@ -4,12 +4,13 @@ import (
 	"encoding/json"
 	"flag"
 	"fmt"
-	"github.com/olivere/elastic"
 	"log"
 	"net/http"
 	"os"
 	"strings"
 	"time"
+
+	"gopkg.in/olivere/elastic.v1"
 )
 
 const (
